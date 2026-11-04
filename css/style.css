@@ -1346,3 +1346,28 @@ h1 span,
     transition: none;
   }
 }
+
+/* Fix unwanted horizontal scrolling on mobile */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+.container,
+.container-fluid {
+  max-width: 100%;
+}
